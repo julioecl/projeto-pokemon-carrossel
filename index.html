@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokémon Slider - MapaDev Week</title>
+    <link rel="shortcut icon" href="src/images/pokebola.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Outfit&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/images/pokebola.png" alt="pokebola" class="pokebola">
+        <h1 class="titulo">MapaDev Week</h1>
+    </header>
+    <main class="pokemon-slider">
+        <button class="btn-seta btn-voltar opaca" id="btn-voltar"><img src="src/images/seta.png" alt="seta voltar"></button>
+        <ul class="lista-pokemons">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Pikachu</h2>
+                    <p class="vida">HP 300</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/pikachu.png" alt="pikachu" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo" >Descrição</h3>
+                    <p class="texto">Os Pikachus são pequenos roedores de quarenta centímetros e de seis quilogramas, com um corpo redondo, e pernas curtas e uma longa cauda. Quando macho tem um formato de um raio, mas se o Pikachu for fêmea sua cauda ganha um coração na ponta.</p>
+                </div>
+            </li>
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Charizard</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/charizard.png" alt="charizard" class="imagem-pokemon">
+                </div>
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Charizards adora batalhas e seu espírito competitivo também é notável, uma vez que nunca vai cuspir fogo em um inimigo mais fraco a menos que provocado ou ordenado. Quando fica muito irritado, as chamas em sua cauda se tornam branco-azuladas</p>
+                </div> 
+            </li>
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Lucario</h2>
+                    <p class="vida">HP 500</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/lucario.png" alt="lucario" class="imagem-pokemon">
+                </div>
+                <div  class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Lucarios têm a capacidade de sentir as auras de todas as coisas. Entende o discurso humano. Um Lucario bem treinado pode sentir auras para captar sentimentos de criaturas a quilômetros de distância.</p>
+            </li>
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Gengar</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/gengar.png" alt="gengar" class="imagem-pokemon">
+                </div>
+                <div  class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Gengar, um Pokémon que espreita nas sombras, é um mestre dos ataques-surpresa. Ele consegue aparecer sorrateiramente por trás dos oponentes sem dar um pio.</p>
+            </li>
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Dragonite</h2>
+                    <p class="vida">HP 900</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/dragonite.png" alt="dragonite" class="imagem-pokemon">
+                </div>
+                <div  class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Um Pokémon de bom coração com inteligência semelhante à humana, por isso Dragonite mostra sinais de altruísmo. Mas se reprime e fica satisfeito depois de esmagar qualquer coisa que o irritou em pedacinhos. </p>
+            </li>
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Venusaur</h2>
+                    <p class="vida">HP 700</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/venusaur.png" alt="venusaur" class="imagem-pokemon">
+                </div>
+                <div  class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Existe uma flor grande nas costas de Venusaur. Quando ela recebe adquire cores mais vivas. O aroma da flor acalma as emoções das pessoas.</p>
+            </li>
+            <li class="cartao fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Blastoise</h2>
+                    <p class="vida">HP 800</p>
+                </div>
+                <div class="container-imagem">
+                    <img src="src/images/blastoise.png" alt="Blastoise" class="imagem-pokemon">
+                </div>
+                <div  class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O Blastoise se torna pesado para que possa resistir ao recuo dos jatos de água que dispara. Os seus canhões de água são tão poderosos que são capazes de perfurar buracos através do aço grosso. Seus pés são firmados no chão antes de disparar seus jatos.</p>
+            </li>
+        </ul>
+        <button class="btn-seta btn-avancar" id="btn-avancar"><img src="src/images/seta.png" alt="seta avancar"></button>
+    </main>    
+    <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
