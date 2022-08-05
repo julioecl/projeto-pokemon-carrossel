@@ -2,6 +2,7 @@
     .pokemon-slider {
         padding: 0 15px;
         gap: 10px;
+        margin: 15px auto;
     }
 
     .btn-seta {
