@@ -72,8 +72,7 @@ body {
 }
 
 .cartao.selecionado {
-    opacity: 1;
-    z-index: 1;
+    opacity: 1;    
 }
 
 .fundo-1 {
